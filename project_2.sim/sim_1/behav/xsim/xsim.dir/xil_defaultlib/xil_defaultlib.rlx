@@ -1,0 +1,27 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/User/Desktop/Vivado/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ALU.v,1739279748,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ALU_Decoder.v,,ALU,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ALU_Decoder.v,1739279754,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ALU_Select.v,,ALU_Decoder,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ALU_Select.v,1739279788,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Adder.v,,ALU_Select,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Adder.v,1739279824,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/BPU.v,,Adder,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/BPU.v,1739274866,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Data_Memory.v,,BPU,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Data_Memory.v,1739276442,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Hazard_unit.v,,Data_Memory,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Hazard_unit.v,1739273722,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ID_IEx.v,,Hazard_Unit,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/ID_IEx.v,1739275073,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/IEx_IMem.v,,ID_EX,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/IEx_IMem.v,1739118761,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/IF_ID.v,,IEx_IMem,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/IF_ID.v,1739121270,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/IMem_IW.v,,IF_ID,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/IMem_IW.v,1738873786,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Immediate_propagation.v,,IMem_IW,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Immediate_propagation.v,1738873817,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Instruction_Memory.v,,Immediate_propagation,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Instruction_Memory.v,1738873832,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Main_Decoder.v,,Instruction_Memory,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Main_Decoder.v,1738924744,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Next_pc_mux.v,,Main_Decoder,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Next_pc_mux.v,1738881133,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/PC_Stall_Unit.v,,next_pc_mux,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/PC_Stall_Unit.v,1738873874,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/PC_plus4adder.v,,PC_Stall_Unit,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/PC_plus4adder.v,1738873895,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/forwardA.v,,PC_plus4adder,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Top_Module.v,1739012429,verilog,,,,Top_Module,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/forwardA.v,1738873920,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/forwardB.v,,forwardA,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/forwardB.v,1738873941,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/reg_file.v,,forwardB,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/reg_file.v,1738874751,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/result_mux.v,,reg_file,,,,,,,,
+C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/result_mux.v,1738873236,verilog,,C:/Users/User/Desktop/Vivado/project_2/project_2.srcs/sources_1/new/Top_Module.v,,result_mux,,,,,,,,
