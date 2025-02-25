@@ -1,11 +1,11 @@
 `timescale 1ns/1ps
 
 module forwardB(
-    input  [31:0] RD2E,        // ערך קריאה מהרגיסטר
-    input  [31:0] ResultW,     // ערך תוצאה משלב Write Back
-    input  [31:0] ALUResultM,  // ערך תוצאה משלב Memory
-    input  [1:0] ForwardB,     // סיגנל Forward מה-Hazard Unit
-    output [31:0] ForwardedB   // הפלט שנבחר
+    input  [31:0] RD2E,
+    input  [31:0] ResultW,
+    input  [31:0] ALUResultM,
+    input  [1:0] ForwardB,
+    output [31:0] ForwardedB
 );
 
     assign ForwardedB = (ForwardB == 2'b10) ? ALUResultM : 
