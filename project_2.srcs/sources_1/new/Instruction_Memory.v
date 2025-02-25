@@ -64,5 +64,11 @@ module Instruction_Memory(
         RAM[100] = 8'h23; RAM[101] = 8'ha0; RAM[102] = 8'h21; RAM[103] = 8'h04;
         // Instruction: 00210063
         RAM[104] = 8'h63; RAM[105] = 8'h01; RAM[106] = 8'h20; RAM[107] = 8'h00;
+        // Filling remaining memory with NOP (No Operation)
+        RAM[108] = 8'h13; RAM[109] = 8'h00; RAM[110] = 8'h00; RAM[111] = 8'h00;
+        RAM[112] = 8'h13; RAM[113] = 8'h00; RAM[114] = 8'h00; RAM[115] = 8'h00;
+        RAM[116] = 8'h13; RAM[117] = 8'h00; RAM[118] = 8'h00; RAM[119] = 8'h00;
+        RAM[120] = 8'h13; RAM[121] = 8'h00; RAM[122] = 8'h00; RAM[123] = 8'h00;
+        RAM[124] = 8'h13; RAM[125] = 8'h00; RAM[126] = 8'h00; RAM[127] = 8'h00;
     end
 endmodule
