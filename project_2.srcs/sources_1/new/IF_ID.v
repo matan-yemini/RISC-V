@@ -4,8 +4,8 @@ module IF_ID (
     input clk,
     input reset,
     input clear,
-    input StallF,              // Stall signal for the Fetch stage
-    input FlushD,              // Flush signal for Decode stage
+    input StallF,
+    input FlushD,
     input [31:0] InstrF,
     input [31:0] PCF,
     input [31:0] pc_plus4F,
@@ -15,17 +15,16 @@ module IF_ID (
 );
 
     always @(posedge clk or posedge reset) begin
-        if (reset) begin // Asynchronous Clear
+        if (reset) begin
             InstrD <= 32'b0;
             PCD <= 32'b0;
-            pc_plus4D
-     <= 32'b0;
-        end else if (FlushD) begin // Flush Decode stage
+            pc_plus4D <= 32'b0;
+        end else if (FlushD) begin
             InstrD <= 32'b0;
             PCD <= 32'b0;
-            pc_plus4D<= 32'b0;
-        end else if (!StallF) begin // Check StallF before writing
-            if (clear) begin // Synchronous Clear
+            pc_plus4D <= 32'b0;
+        end else if (!StallF) begin
+            if (clear) begin
                 InstrD <= 32'b0;
                 PCD <= 32'b0;
                 pc_plus4D <= 32'b0;
@@ -36,4 +35,5 @@ module IF_ID (
             end
         end
     end
+
 endmodule
