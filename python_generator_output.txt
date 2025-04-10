@@ -1,0 +1,1059 @@
+C:\ProgramData\Anaconda3\envs\Python_generator\python.exe C:/Users/User/Desktop/Vivado/Python_generator/main.py
+Generating valid RISC-V instructions (target: 32):
+--------------------------------------------------------------------------------
+Attempt 1 - Found 0/64 valid instructions:
+  Type: jump
+  Assembly: jal x0, 40
+  Hex: 0x0280006f
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000000 -> 0x00000028)
+  Jump/branch taken: Skipping next 9 instructions
+
+Attempt 2 - Found 1/64 valid instructions:
+  Type: r-type
+  Assembly: add x10, x3, x16
+  Hex: 0x01018533
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 3 - Found 2/64 valid instructions:
+  Type: load
+  Assembly: lw x19, 57(x6)
+  Hex: 0x03932983
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 4 - Found 2/64 valid instructions:
+  Type: load
+  Assembly: lw x13, 179(x24)
+  Hex: 0x0b3c2683
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 5 - Found 2/64 valid instructions:
+  Type: i-type
+  Assembly: sltiu x9, x8, 36
+  Hex: 0x02443493
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 6 - Found 3/64 valid instructions:
+  Type: branch
+  Assembly: beq x14, x2, 44
+  Hex: 0x02270663
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 7 - Found 3/64 valid instructions:
+  Type: r-type
+  Assembly: sub x25, x11, x22
+  Hex: 0x41658cb3
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 8 - Found 4/64 valid instructions:
+  Type: r-type
+  Assembly: sll x10, x11, x23
+  Hex: 0x01759533
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 9 - Found 5/64 valid instructions:
+  Type: load
+  Assembly: lw x7, 133(x26)
+  Hex: 0x085d2383
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 10 - Found 5/64 valid instructions:
+  Type: save
+  Assembly: sw x23, 240(x10)
+  Hex: 0x0f752823
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 11 - Found 5/64 valid instructions:
+  Type: save
+  Assembly: sw x1, 225(x21)
+  Hex: 0x0e1aa0a3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 12 - Found 5/64 valid instructions:
+  Type: r-type
+  Assembly: xor x1, x6, x2
+  Hex: 0x002340b3
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 13 - Found 6/64 valid instructions:
+  Type: load
+  Assembly: lw x1, 219(x5)
+  Hex: 0x0db2a083
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 14 - Found 6/64 valid instructions:
+  Type: i-type
+  Assembly: ori x23, x6, 8
+  Hex: 0x00836b93
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 15 - Found 7/64 valid instructions:
+  Type: load
+  Assembly: lw x20, 217(x6)
+  Hex: 0x0d932a03
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 16 - Found 7/64 valid instructions:
+  Type: i-type
+  Assembly: addi x31, x18, 47
+  Hex: 0x02f90f93
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 17 - Found 8/64 valid instructions:
+  Type: save
+  Assembly: sw x23, 104(x20)
+  Hex: 0x077a2423
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 18 - Found 8/64 valid instructions:
+  Type: branch
+  Assembly: bne x27, x4, 8
+  Hex: 0x004d9463
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 19 - Found 9/64 valid instructions:
+  Type: jump
+  Assembly: jal x28, 32
+  Hex: 0x02000e6f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 20 - Found 9/64 valid instructions:
+  Type: save
+  Assembly: sw x3, 56(x11)
+  Hex: 0x0235ac23
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 21 - Found 9/64 valid instructions:
+  Type: branch
+  Assembly: bltu x1, x15, 40
+  Hex: 0x02f0e463
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 22 - Found 9/64 valid instructions:
+  Type: i-type
+  Assembly: addi x25, x18, 16
+  Hex: 0x01090c93
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 23 - Found 10/64 valid instructions:
+  Type: jump
+  Assembly: jal x15, 20
+  Hex: 0x014007ef
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000028 -> 0x0000003c)
+  Jump/branch taken: Skipping next 4 instructions
+
+Attempt 24 - Found 11/64 valid instructions:
+  Type: save
+  Assembly: sw x12, 97(x23)
+  Hex: 0x06cba0a3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 25 - Found 11/64 valid instructions:
+  Type: r-type
+  Assembly: or x21, x27, x23
+  Hex: 0x017deab3
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 26 - Found 12/64 valid instructions:
+  Type: r-type
+  Assembly: sra x22, x6, x9
+  Hex: 0x40935b33
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 27 - Found 13/64 valid instructions:
+  Type: branch
+  Assembly: bne x4, x3, 56
+  Hex: 0x02321c63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 28 - Found 13/64 valid instructions:
+  Type: i-type
+  Assembly: ori x4, x17, 59
+  Hex: 0x03b8e213
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 29 - Found 14/64 valid instructions:
+  Type: branch
+  Assembly: blt x29, x21, 44
+  Hex: 0x035ec663
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 30 - Found 14/64 valid instructions:
+  Type: r-type
+  Assembly: or x21, x5, x7
+  Hex: 0x0072eab3
+  Status: Valid
+  Instruction skipped (due to previous jump/branch)
+
+Attempt 31 - Found 15/64 valid instructions:
+  Type: jump
+  Assembly: jal x10, 48
+  Hex: 0x0300056f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 32 - Found 15/64 valid instructions:
+  Type: save
+  Assembly: sw x16, 172(x19)
+  Hex: 0x0b09a623
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 33 - Found 15/64 valid instructions:
+  Type: i-type
+  Assembly: ori x25, x15, 40
+  Hex: 0x0287ec93
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000003c -> 0x0000003c)
+
+Attempt 34 - Found 16/64 valid instructions:
+  Type: jump
+  Assembly: jal x2, 8
+  Hex: 0x0080016f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 35 - Found 16/64 valid instructions:
+  Type: jump
+  Assembly: jal x30, 28
+  Hex: 0x01c00f6f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 36 - Found 16/64 valid instructions:
+  Type: i-type
+  Assembly: sltiu x9, x30, 3
+  Hex: 0x003f3493
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000040 -> 0x00000040)
+
+Attempt 37 - Found 17/64 valid instructions:
+  Type: branch
+  Assembly: bne x3, x13, 16
+  Hex: 0x00d19863
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 38 - Found 17/64 valid instructions:
+  Type: jump
+  Assembly: jal x4, 56
+  Hex: 0x0380026f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 39 - Found 17/64 valid instructions:
+  Type: load
+  Assembly: lw x7, 7(x18)
+  Hex: 0x00792383
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 40 - Found 17/64 valid instructions:
+  Type: i-type
+  Assembly: slli x22, x0, 5
+  Hex: 0x00501b13
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000044 -> 0x00000044)
+
+Attempt 41 - Found 18/64 valid instructions:
+  Type: jump
+  Assembly: jal x13, 40
+  Hex: 0x028006ef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 42 - Found 18/64 valid instructions:
+  Type: branch
+  Assembly: bge x6, x24, 60
+  Hex: 0x03835e63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 43 - Found 18/64 valid instructions:
+  Type: jump
+  Assembly: jal x16, 56
+  Hex: 0x0380086f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 44 - Found 18/64 valid instructions:
+  Type: load
+  Assembly: lw x2, 111(x28)
+  Hex: 0x06fe2103
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 45 - Found 18/64 valid instructions:
+  Type: branch
+  Assembly: beq x24, x5, 56
+  Hex: 0x025c0c63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 46 - Found 18/64 valid instructions:
+  Type: load
+  Assembly: lw x17, 71(x30)
+  Hex: 0x047f2883
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 47 - Found 18/64 valid instructions:
+  Type: load
+  Assembly: lw x8, 199(x27)
+  Hex: 0x0c7da403
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 48 - Found 18/64 valid instructions:
+  Type: i-type
+  Assembly: andi x25, x6, 47
+  Hex: 0x02f37c93
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000048 -> 0x00000048)
+
+Attempt 49 - Found 19/64 valid instructions:
+  Type: save
+  Assembly: sw x1, 129(x6)
+  Hex: 0x081320a3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 50 - Found 19/64 valid instructions:
+  Type: r-type
+  Assembly: srl x2, x5, x0
+  Hex: 0x0002d133
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000004c -> 0x0000004c)
+
+Attempt 51 - Found 20/64 valid instructions:
+  Type: r-type
+  Assembly: add x9, x7, x31
+  Hex: 0x01f384b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000050 -> 0x00000050)
+
+Attempt 52 - Found 21/64 valid instructions:
+  Type: r-type
+  Assembly: srl x2, x27, x28
+  Hex: 0x01cdd133
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000054 -> 0x00000054)
+
+Attempt 53 - Found 22/64 valid instructions:
+  Type: i-type
+  Assembly: andi x5, x10, 57
+  Hex: 0x03957293
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000058 -> 0x00000058)
+
+Attempt 54 - Found 23/64 valid instructions:
+  Type: branch
+  Assembly: bltu x14, x9, 52
+  Hex: 0x02976a63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 55 - Found 23/64 valid instructions:
+  Type: i-type
+  Assembly: ori x30, x27, 38
+  Hex: 0x026def13
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000005c -> 0x0000005c)
+
+Attempt 56 - Found 24/64 valid instructions:
+  Type: load
+  Assembly: lw x24, 134(x11)
+  Hex: 0x0865ac03
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 57 - Found 24/64 valid instructions:
+  Type: jump
+  Assembly: jal x23, 52
+  Hex: 0x03400bef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 58 - Found 24/64 valid instructions:
+  Type: i-type
+  Assembly: xori x11, x11, 3
+  Hex: 0x0035c593
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000060 -> 0x00000060)
+
+Attempt 59 - Found 25/64 valid instructions:
+  Type: save
+  Assembly: sw x10, 170(x6)
+  Hex: 0x0aa32523
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 60 - Found 25/64 valid instructions:
+  Type: i-type
+  Assembly: xori x0, x11, 43
+  Hex: 0x02b5c013
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000064 -> 0x00000064)
+
+Attempt 61 - Found 26/64 valid instructions:
+  Type: r-type
+  Assembly: and x13, x27, x13
+  Hex: 0x00ddf6b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000068 -> 0x00000068)
+
+Attempt 62 - Found 27/64 valid instructions:
+  Type: load
+  Assembly: lw x29, 220(x16)
+  Hex: 0x0dc82e83
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 63 - Found 27/64 valid instructions:
+  Type: branch
+  Assembly: bne x19, x21, 60
+  Hex: 0x03599e63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 64 - Found 27/64 valid instructions:
+  Type: i-type
+  Assembly: slli x18, x26, 7
+  Hex: 0x007d1913
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000006c -> 0x0000006c)
+
+Attempt 65 - Found 28/64 valid instructions:
+  Type: i-type
+  Assembly: addi x10, x28, 27
+  Hex: 0x01be0513
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000070 -> 0x00000070)
+
+Attempt 66 - Found 29/64 valid instructions:
+  Type: save
+  Assembly: sw x17, 17(x11)
+  Hex: 0x0115a8a3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 67 - Found 29/64 valid instructions:
+  Type: i-type
+  Assembly: slli x8, x20, 31
+  Hex: 0x01fa1413
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000074 -> 0x00000074)
+
+Attempt 68 - Found 30/64 valid instructions:
+  Type: save
+  Assembly: sw x11, 252(x29)
+  Hex: 0x0ebeae23
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 69 - Found 30/64 valid instructions:
+  Type: jump
+  Assembly: jal x29, 24
+  Hex: 0x01800eef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 70 - Found 30/64 valid instructions:
+  Type: r-type
+  Assembly: and x13, x28, x17
+  Hex: 0x011e76b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000078 -> 0x00000078)
+
+Attempt 71 - Found 31/64 valid instructions:
+  Type: i-type
+  Assembly: ori x11, x4, 46
+  Hex: 0x02e26593
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000007c -> 0x0000007c)
+
+Attempt 72 - Found 32/64 valid instructions:
+  Type: save
+  Assembly: sw x15, 220(x9)
+  Hex: 0x0cf4ae23
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 73 - Found 32/64 valid instructions:
+  Type: r-type
+  Assembly: and x19, x5, x21
+  Hex: 0x0152f9b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000080 -> 0x00000080)
+
+Attempt 74 - Found 33/64 valid instructions:
+  Type: i-type
+  Assembly: andi x28, x10, 19
+  Hex: 0x01357e13
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000084 -> 0x00000084)
+
+Attempt 75 - Found 34/64 valid instructions:
+  Type: r-type
+  Assembly: sll x10, x14, x18
+  Hex: 0x01271533
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000088 -> 0x00000088)
+
+Attempt 76 - Found 35/64 valid instructions:
+  Type: i-type
+  Assembly: srli x29, x30, 3
+  Hex: 0x003f5e93
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000008c -> 0x0000008c)
+
+Attempt 77 - Found 36/64 valid instructions:
+  Type: save
+  Assembly: sw x16, 21(x16)
+  Hex: 0x01082aa3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 78 - Found 36/64 valid instructions:
+  Type: branch
+  Assembly: blt x26, x7, 12
+  Hex: 0x007d4663
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 79 - Found 36/64 valid instructions:
+  Type: branch
+  Assembly: bgeu x16, x14, 16
+  Hex: 0x00e87863
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 80 - Found 36/64 valid instructions:
+  Type: load
+  Assembly: lw x30, 71(x25)
+  Hex: 0x047caf03
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000090 -> 0x00000090)
+
+Attempt 81 - Found 37/64 valid instructions:
+  Type: r-type
+  Assembly: xor x5, x9, x8
+  Hex: 0x0084c2b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000094 -> 0x00000094)
+
+Attempt 82 - Found 38/64 valid instructions:
+  Type: i-type
+  Assembly: ori x24, x26, 31
+  Hex: 0x01fd6c13
+  Status: Valid
+  Instruction executed successfully (PC: 0x00000098 -> 0x00000098)
+
+Attempt 83 - Found 39/64 valid instructions:
+  Type: load
+  Assembly: lw x17, 32(x10)
+  Hex: 0x02052883
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 84 - Found 39/64 valid instructions:
+  Type: jump
+  Assembly: jal x5, 44
+  Hex: 0x02c002ef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 85 - Found 39/64 valid instructions:
+  Type: load
+  Assembly: lw x20, 242(x24)
+  Hex: 0x0f2c2a03
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 86 - Found 39/64 valid instructions:
+  Type: r-type
+  Assembly: sub x1, x10, x20
+  Hex: 0x414500b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x0000009c -> 0x0000009c)
+
+Attempt 87 - Found 40/64 valid instructions:
+  Type: save
+  Assembly: sw x25, 24(x1)
+  Hex: 0x0190ac23
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 88 - Found 40/64 valid instructions:
+  Type: load
+  Assembly: lw x2, 27(x12)
+  Hex: 0x01b62103
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 89 - Found 40/64 valid instructions:
+  Type: load
+  Assembly: lw x8, 64(x23)
+  Hex: 0x040ba403
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 90 - Found 40/64 valid instructions:
+  Type: jump
+  Assembly: jal x31, 36
+  Hex: 0x02400fef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 91 - Found 40/64 valid instructions:
+  Type: save
+  Assembly: sw x22, 193(x0)
+  Hex: 0x0d6020a3
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000a0 -> 0x000000a0)
+
+Attempt 92 - Found 41/64 valid instructions:
+  Type: i-type
+  Assembly: slli x26, x31, 3
+  Hex: 0x003f9d13
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000a4 -> 0x000000a4)
+
+Attempt 93 - Found 42/64 valid instructions:
+  Type: save
+  Assembly: sw x6, 192(x26)
+  Hex: 0x0c6d2023
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 94 - Found 42/64 valid instructions:
+  Type: save
+  Assembly: sw x28, 65(x15)
+  Hex: 0x05c7a0a3
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000a8 -> 0x000000a8)
+
+Attempt 95 - Found 43/64 valid instructions:
+  Type: save
+  Assembly: sw x17, 59(x13)
+  Hex: 0x0316ada3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 96 - Found 43/64 valid instructions:
+  Type: branch
+  Assembly: bgeu x30, x8, 40
+  Hex: 0x028f7463
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 97 - Found 43/64 valid instructions:
+  Type: save
+  Assembly: sw x31, 195(x21)
+  Hex: 0x0dfaa1a3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 98 - Found 43/64 valid instructions:
+  Type: jump
+  Assembly: jal x9, 48
+  Hex: 0x030004ef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 99 - Found 43/64 valid instructions:
+  Type: i-type
+  Assembly: slli x26, x13, 27
+  Hex: 0x01b69d13
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000ac -> 0x000000ac)
+
+Attempt 100 - Found 44/64 valid instructions:
+  Type: r-type
+  Assembly: sll x24, x0, x7
+  Hex: 0x00701c33
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000b0 -> 0x000000b0)
+
+Attempt 101 - Found 45/64 valid instructions:
+  Type: load
+  Assembly: lw x5, 129(x11)
+  Hex: 0x0815a283
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 102 - Found 45/64 valid instructions:
+  Type: branch
+  Assembly: bge x10, x17, 16
+  Hex: 0x01155863
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 103 - Found 45/64 valid instructions:
+  Type: branch
+  Assembly: blt x13, x15, 56
+  Hex: 0x02f6cc63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 104 - Found 45/64 valid instructions:
+  Type: r-type
+  Assembly: xor x15, x26, x30
+  Hex: 0x01ed47b3
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000b4 -> 0x000000b4)
+
+Attempt 105 - Found 46/64 valid instructions:
+  Type: r-type
+  Assembly: sub x16, x10, x0
+  Hex: 0x40050833
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000b8 -> 0x000000b8)
+
+Attempt 106 - Found 47/64 valid instructions:
+  Type: jump
+  Assembly: jal x19, 40
+  Hex: 0x028009ef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 107 - Found 47/64 valid instructions:
+  Type: load
+  Assembly: lw x25, 96(x10)
+  Hex: 0x06052c83
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 108 - Found 47/64 valid instructions:
+  Type: r-type
+  Assembly: sub x14, x11, x21
+  Hex: 0x41558733
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000bc -> 0x000000bc)
+
+Attempt 109 - Found 48/64 valid instructions:
+  Type: i-type
+  Assembly: srli x4, x29, 0
+  Hex: 0x000ed213
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000c0 -> 0x000000c0)
+
+Attempt 110 - Found 49/64 valid instructions:
+  Type: jump
+  Assembly: jal x13, 16
+  Hex: 0x010006ef
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 111 - Found 49/64 valid instructions:
+  Type: jump
+  Assembly: jal x2, 36
+  Hex: 0x0240016f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 112 - Found 49/64 valid instructions:
+  Type: i-type
+  Assembly: srli x29, x24, 25
+  Hex: 0x019c5e93
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000c4 -> 0x000000c4)
+
+Attempt 113 - Found 50/64 valid instructions:
+  Type: r-type
+  Assembly: sub x12, x15, x10
+  Hex: 0x40a78633
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000c8 -> 0x000000c8)
+
+Attempt 114 - Found 51/64 valid instructions:
+  Type: load
+  Assembly: lw x13, 93(x29)
+  Hex: 0x05dea683
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000cc -> 0x000000cc)
+
+Attempt 115 - Found 52/64 valid instructions:
+  Type: r-type
+  Assembly: and x2, x28, x6
+  Hex: 0x006e7133
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000d0 -> 0x000000d0)
+
+Attempt 116 - Found 53/64 valid instructions:
+  Type: r-type
+  Assembly: xor x16, x30, x21
+  Hex: 0x015f4833
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000d4 -> 0x000000d4)
+
+Attempt 117 - Found 54/64 valid instructions:
+  Type: i-type
+  Assembly: slli x25, x28, 26
+  Hex: 0x01ae1c93
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000d8 -> 0x000000d8)
+
+Attempt 118 - Found 55/64 valid instructions:
+  Type: r-type
+  Assembly: sub x27, x17, x23
+  Hex: 0x41788db3
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000dc -> 0x000000dc)
+
+Attempt 119 - Found 56/64 valid instructions:
+  Type: i-type
+  Assembly: addi x26, x21, 38
+  Hex: 0x026a8d13
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000e0 -> 0x000000e0)
+
+Attempt 120 - Found 57/64 valid instructions:
+  Type: save
+  Assembly: sw x11, 236(x31)
+  Hex: 0x0ebfa623
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 121 - Found 57/64 valid instructions:
+  Type: i-type
+  Assembly: slti x5, x27, 49
+  Hex: 0x031da293
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000e4 -> 0x000000e4)
+
+Attempt 122 - Found 58/64 valid instructions:
+  Type: load
+  Assembly: lw x21, 224(x13)
+  Hex: 0x0e06aa83
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 123 - Found 58/64 valid instructions:
+  Type: i-type
+  Assembly: xori x0, x26, 22
+  Hex: 0x016d4013
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000e8 -> 0x000000e8)
+
+Attempt 124 - Found 59/64 valid instructions:
+  Type: save
+  Assembly: sw x28, 194(x17)
+  Hex: 0x0dc8a123
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 125 - Found 59/64 valid instructions:
+  Type: branch
+  Assembly: bgeu x1, x25, 16
+  Hex: 0x0190f863
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 126 - Found 59/64 valid instructions:
+  Type: jump
+  Assembly: jal x27, 60
+  Hex: 0x03c00def
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 127 - Found 59/64 valid instructions:
+  Type: r-type
+  Assembly: or x30, x4, x27
+  Hex: 0x01b26f33
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000ec -> 0x000000ec)
+
+Attempt 128 - Found 60/64 valid instructions:
+  Type: load
+  Assembly: lw x3, 170(x16)
+  Hex: 0x0aa82183
+  Status: Invalid
+  Reason: Load address out of bounds
+
+Attempt 129 - Found 60/64 valid instructions:
+  Type: load
+  Assembly: lw x1, 132(x28)
+  Hex: 0x084e2083
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000f0 -> 0x000000f0)
+
+Attempt 130 - Found 61/64 valid instructions:
+  Type: i-type
+  Assembly: slti x6, x9, 11
+  Hex: 0x00b4a313
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000f4 -> 0x000000f4)
+
+Attempt 131 - Found 62/64 valid instructions:
+  Type: branch
+  Assembly: beq x26, x12, 48
+  Hex: 0x02cd0863
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 132 - Found 62/64 valid instructions:
+  Type: jump
+  Assembly: jal x0, 36
+  Hex: 0x0240006f
+  Status: Invalid
+  Reason: Jump target out of bounds
+
+Attempt 133 - Found 62/64 valid instructions:
+  Type: i-type
+  Assembly: srli x1, x12, 17
+  Hex: 0x01165093
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000f8 -> 0x000000f8)
+
+Attempt 134 - Found 63/64 valid instructions:
+  Type: save
+  Assembly: sw x25, 65(x15)
+  Hex: 0x0597a0a3
+  Status: Invalid
+  Reason: Store address out of bounds
+
+Attempt 135 - Found 63/64 valid instructions:
+  Type: branch
+  Assembly: blt x30, x18, 48
+  Hex: 0x032f4863
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 136 - Found 63/64 valid instructions:
+  Type: branch
+  Assembly: beq x7, x14, 20
+  Hex: 0x00e38a63
+  Status: Invalid
+  Reason: Branch target out of bounds
+
+Attempt 137 - Found 63/64 valid instructions:
+  Type: i-type
+  Assembly: xori x13, x10, 38
+  Hex: 0x02654693
+  Status: Valid
+  Instruction executed successfully (PC: 0x000000fc -> 0x000000fc)
+
+
+================================================================================
+Found all 64 valid instructions in 137 attempts:
+Executed 51 of 64 instructions (due to branch/jump skipping)
+================================================================================
+1. Type: jump, Assembly: jal x0, 40, Hex: 0x0280006f
+2. Type: r-type, Assembly: add x10, x3, x16, Hex: 0x01018533
+3. Type: i-type, Assembly: sltiu x9, x8, 36, Hex: 0x02443493
+4. Type: r-type, Assembly: sub x25, x11, x22, Hex: 0x41658cb3
+5. Type: r-type, Assembly: sll x10, x11, x23, Hex: 0x01759533
+6. Type: r-type, Assembly: xor x1, x6, x2, Hex: 0x002340b3
+7. Type: i-type, Assembly: ori x23, x6, 8, Hex: 0x00836b93
+8. Type: i-type, Assembly: addi x31, x18, 47, Hex: 0x02f90f93
+9. Type: branch, Assembly: bne x27, x4, 8, Hex: 0x004d9463
+10. Type: i-type, Assembly: addi x25, x18, 16, Hex: 0x01090c93
+11. Type: jump, Assembly: jal x15, 20, Hex: 0x014007ef
+12. Type: r-type, Assembly: or x21, x27, x23, Hex: 0x017deab3
+13. Type: r-type, Assembly: sra x22, x6, x9, Hex: 0x40935b33
+14. Type: i-type, Assembly: ori x4, x17, 59, Hex: 0x03b8e213
+15. Type: r-type, Assembly: or x21, x5, x7, Hex: 0x0072eab3
+16. Type: i-type, Assembly: ori x25, x15, 40, Hex: 0x0287ec93
+17. Type: i-type, Assembly: sltiu x9, x30, 3, Hex: 0x003f3493
+18. Type: i-type, Assembly: slli x22, x0, 5, Hex: 0x00501b13
+19. Type: i-type, Assembly: andi x25, x6, 47, Hex: 0x02f37c93
+20. Type: r-type, Assembly: srl x2, x5, x0, Hex: 0x0002d133
+21. Type: r-type, Assembly: add x9, x7, x31, Hex: 0x01f384b3
+22. Type: r-type, Assembly: srl x2, x27, x28, Hex: 0x01cdd133
+23. Type: i-type, Assembly: andi x5, x10, 57, Hex: 0x03957293
+24. Type: i-type, Assembly: ori x30, x27, 38, Hex: 0x026def13
+25. Type: i-type, Assembly: xori x11, x11, 3, Hex: 0x0035c593
+26. Type: i-type, Assembly: xori x0, x11, 43, Hex: 0x02b5c013
+27. Type: r-type, Assembly: and x13, x27, x13, Hex: 0x00ddf6b3
+28. Type: i-type, Assembly: slli x18, x26, 7, Hex: 0x007d1913
+29. Type: i-type, Assembly: addi x10, x28, 27, Hex: 0x01be0513
+30. Type: i-type, Assembly: slli x8, x20, 31, Hex: 0x01fa1413
+31. Type: r-type, Assembly: and x13, x28, x17, Hex: 0x011e76b3
+32. Type: i-type, Assembly: ori x11, x4, 46, Hex: 0x02e26593
+33. Type: r-type, Assembly: and x19, x5, x21, Hex: 0x0152f9b3
+34. Type: i-type, Assembly: andi x28, x10, 19, Hex: 0x01357e13
+35. Type: r-type, Assembly: sll x10, x14, x18, Hex: 0x01271533
+36. Type: i-type, Assembly: srli x29, x30, 3, Hex: 0x003f5e93
+37. Type: load, Assembly: lw x30, 71(x25), Hex: 0x047caf03
+38. Type: r-type, Assembly: xor x5, x9, x8, Hex: 0x0084c2b3
+39. Type: i-type, Assembly: ori x24, x26, 31, Hex: 0x01fd6c13
+40. Type: r-type, Assembly: sub x1, x10, x20, Hex: 0x414500b3
+41. Type: save, Assembly: sw x22, 193(x0), Hex: 0x0d6020a3
+42. Type: i-type, Assembly: slli x26, x31, 3, Hex: 0x003f9d13
+43. Type: save, Assembly: sw x28, 65(x15), Hex: 0x05c7a0a3
+44. Type: i-type, Assembly: slli x26, x13, 27, Hex: 0x01b69d13
+45. Type: r-type, Assembly: sll x24, x0, x7, Hex: 0x00701c33
+46. Type: r-type, Assembly: xor x15, x26, x30, Hex: 0x01ed47b3
+47. Type: r-type, Assembly: sub x16, x10, x0, Hex: 0x40050833
+48. Type: r-type, Assembly: sub x14, x11, x21, Hex: 0x41558733
+49. Type: i-type, Assembly: srli x4, x29, 0, Hex: 0x000ed213
+50. Type: i-type, Assembly: srli x29, x24, 25, Hex: 0x019c5e93
+51. Type: r-type, Assembly: sub x12, x15, x10, Hex: 0x40a78633
+52. Type: load, Assembly: lw x13, 93(x29), Hex: 0x05dea683
+53. Type: r-type, Assembly: and x2, x28, x6, Hex: 0x006e7133
+54. Type: r-type, Assembly: xor x16, x30, x21, Hex: 0x015f4833
+55. Type: i-type, Assembly: slli x25, x28, 26, Hex: 0x01ae1c93
+56. Type: r-type, Assembly: sub x27, x17, x23, Hex: 0x41788db3
+57. Type: i-type, Assembly: addi x26, x21, 38, Hex: 0x026a8d13
+58. Type: i-type, Assembly: slti x5, x27, 49, Hex: 0x031da293
+59. Type: i-type, Assembly: xori x0, x26, 22, Hex: 0x016d4013
+60. Type: r-type, Assembly: or x30, x4, x27, Hex: 0x01b26f33
+61. Type: load, Assembly: lw x1, 132(x28), Hex: 0x084e2083
+62. Type: i-type, Assembly: slti x6, x9, 11, Hex: 0x00b4a313
+63. Type: i-type, Assembly: srli x1, x12, 17, Hex: 0x01165093
+64. Type: i-type, Assembly: xori x13, x10, 38, Hex: 0x02654693
+
+================================================================================
+Final Register State:
+================================================================================
+x0: 0x00000000  x1: 0x0000614b  x2: 0x00000000  x3: 0x8484d609
+x4: 0x05cb092f  x5: 0x00000000  x6: 0x00000000  x7: 0xb2c28465
+x8: 0x80000000  x9: 0x64b1e6c8  x10: 0x462df78c  x11: 0xb1f0566f
+x12: 0xc296bbb5  x13: 0x462df7aa  x14: 0x28bd805d  x15: 0x08c4b341
+x16: 0xa9f66553  x17: 0xe2f784c5  x18: 0x65276280  x19: 0x00000000
+x20: 0xbbd27277  x21: 0x8932d612  x22: 0x00000000  x23: 0x793069f2
+x24: 0x00000000  x25: 0x40000000  x26: 0x8932d638  x27: 0x69c71ad3
+x28: 0x00000010  x29: 0x00000000  x30: 0x6dcf1bff  x31: 0xb1ef6263
+PC: 0x00000100
+
+================================================================================
+Memory Locations That Changed:
+================================================================================
+MEM[27]: 0x634bf9c6 -> 0x00000010
+MEM[48]: 0xae7d945c -> 0x00000000
+
+Successfully saved 64 instructions to:
+C:\Users\User\Desktop\Vivado\Python_generator\Instructions.hex
+Verified: 64 instructions in the file
+First instruction: 0x{saved_instructions[0].strip()}
+
+Process finished with exit code 0
