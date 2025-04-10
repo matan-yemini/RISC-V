@@ -262,6 +262,7 @@ module Top_Module (
         .pc_plus4E(pc_plus4E), 
         .RdE(RdE),
         .MemReadE(MemReadE),
+        .MemReadM(MemReadM),
         .RegWriteE(RegWriteE), 
         .MemWriteE(MemWriteE),
         .ResultSrcE(ResultSrcE),

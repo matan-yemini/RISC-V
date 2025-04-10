@@ -1,14 +1,12 @@
 `timescale 1ns/1ps
-
 module Instruction_Memory(
     input [31:0] PCF, 
     output [31:0] InstrF
 );
-    reg [7:0] RAM [0:127]; // 128 x 8 = byte addressable memory with 128 locations
-
-    assign InstrF = {RAM[PCF+3], RAM[PCF+2], RAM[PCF+1], RAM[PCF]}; // Little-endian configuration
-
-    // Initialize memory with instructions
+    reg [31:0] RAM [0:31]; // 32 instructions (word-addressable)
+    integer i; // Declare integer i at module level
+    
+    // Initialize all memory locations
     initial begin
         // Instruction: 00500113
         RAM[0]  = 8'h13; RAM[1]  = 8'h01; RAM[2]  = 8'h50; RAM[3]  = 8'h00;
@@ -51,24 +49,4 @@ module Instruction_Memory(
         // Instruction: 00100213
         RAM[76] = 8'h13; RAM[77] = 8'h02; RAM[78] = 8'h10; RAM[79] = 8'h00;
         // Instruction: 800002b7
-        RAM[80] = 8'hb7; RAM[81] = 8'h02; RAM[82] = 8'h00; RAM[83] = 8'h80;
-        // Instruction: 0042a333
-        RAM[84] = 8'h33; RAM[85] = 8'ha3; RAM[86] = 8'h42; RAM[87] = 8'h00;
-        // Instruction: 00030063
-        RAM[88] = 8'h63; RAM[89] = 8'h00; RAM[90] = 8'h03; RAM[91] = 8'h00;
-        // Instruction: abcde4b7
-        RAM[92] = 8'hb7; RAM[93] = 8'he4; RAM[94] = 8'hcd; RAM[95] = 8'hab;
-        // Instruction: 00910133
-        RAM[96] = 8'h33; RAM[97] = 8'h01; RAM[98] = 8'h91; RAM[99] = 8'h00;
-        // Instruction: 0421a023
-        RAM[100] = 8'h23; RAM[101] = 8'ha0; RAM[102] = 8'h21; RAM[103] = 8'h04;
-        // Instruction: 00210063
-        RAM[104] = 8'h63; RAM[105] = 8'h01; RAM[106] = 8'h20; RAM[107] = 8'h00;
-        // Filling remaining memory with NOP (No Operation)
-        RAM[108] = 8'h13; RAM[109] = 8'h00; RAM[110] = 8'h00; RAM[111] = 8'h00;
-        RAM[112] = 8'h13; RAM[113] = 8'h00; RAM[114] = 8'h00; RAM[115] = 8'h00;
-        RAM[116] = 8'h13; RAM[117] = 8'h00; RAM[118] = 8'h00; RAM[119] = 8'h00;
-        RAM[120] = 8'h13; RAM[121] = 8'h00; RAM[122] = 8'h00; RAM[123] = 8'h00;
-        RAM[124] = 8'h13; RAM[125] = 8'h00; RAM[126] = 8'h00; RAM[127] = 8'h00;
-    end
-endmodule
+        RAM[80] = 8'h

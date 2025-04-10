@@ -4,7 +4,6 @@ verilog xil_defaultlib  \
 "../../../../project_2.srcs/sources_1/new/ALU_Decoder.v" \
 "../../../../project_2.srcs/sources_1/new/ALU_Select.v" \
 "../../../../project_2.srcs/sources_1/new/Adder.v" \
-"../../../../project_2.srcs/sources_1/new/BPU.v" \
 "../../../../project_2.srcs/sources_1/new/Data_Memory.v" \
 "../../../../project_2.srcs/sources_1/new/Hazard_unit.v" \
 "../../../../project_2.srcs/sources_1/new/ID_IEx.v" \
